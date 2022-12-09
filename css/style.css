@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+@media only screen and (max-width: 599px) {
+    .nav-links {
+        display: block;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+section {
+    border: 1px solid lightgray;
+    margin: 30px 100px 0 100px;
+    padding-left: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px darkgray;
+    /* option d'ombre premiere valeur  = projection vers la droit, 2éme value = projection vers le bas, 3émé  : intenstié de la couleur,  4émé = couleur*/
+}
+
+.presentation {
+  background-color: #FFFFFF;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+} 
+
+.langages {
+  background-color: rgb(238, 220, 220);
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.informatique {
+  background-color: rgb(238, 220, 220);
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;   
+}
+
+form {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;   
+}
+
+.moi {
+  background-color: #FFFFFF;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em; 
+}
+
+.humain {
+  background-color: rgb(238, 220, 220);
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em; 
+}
+
+.exp {
+  background-color: rgb(238, 220, 220);
+  text-align: auto;
+  font-size: 20px;
+  margin-top: 50px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* element {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+
+img {
+    width: 550px;
+    height: 430px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+}
+img:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.7;
+}
